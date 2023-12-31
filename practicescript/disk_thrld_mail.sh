@@ -4,5 +4,5 @@ echo "The used disk drive is : $drive"
 if [ $drive -gt 30 ]
 then 
 	echo "Memory reached threshold value"
-	#echo "Memory reached value" | mail -s "disk uasge" -c "nethravathir1210@gmail.com"
+        echo "Current driver size is $drive" | mail -s "disk uasge"  "nethravathirhyr1210@gmail.com"
 fi
