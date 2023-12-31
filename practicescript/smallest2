@@ -1,0 +1,10 @@
+#!/bin/bash
+n1=$1
+n2=$2
+if [ $n1 -lt $n2 ]
+then
+	echo "$n1 is smallest"
+else
+	echo "$n2 is smallest"
+fi
+

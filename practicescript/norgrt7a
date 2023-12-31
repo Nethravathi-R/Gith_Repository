@@ -1,0 +1,12 @@
+#!/bin/bash
+number=$1
+if [ $number -gt 7 ]
+then
+	echo "$number is greaterthan 7"
+elif [ $number -eq 7 ]
+then 
+	echo "$number is equal to 7"
+else
+	echo "$number is lessthan 7"
+fi
+
