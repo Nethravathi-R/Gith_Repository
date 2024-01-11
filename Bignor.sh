@@ -1,10 +1,10 @@
 #!/bin/bash
 num1=$1
 num2=$2
-if [ $1 -gt $2 ]
+if [[ $1 -gt $2 ]]
 then 
 	echo " $1 is biggest"
-elif [ $1 -eq $2 ]
+elif [[ $1 -eq $2 ]]
 then
 	echo " $1 & $2 are equal"
 else
